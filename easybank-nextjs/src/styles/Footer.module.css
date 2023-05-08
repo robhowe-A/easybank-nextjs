@@ -1,0 +1,113 @@
+
+.siteFooter {
+    background-color: #2d314e;
+    width: 100%;
+}
+
+.siteFooter > div:first-of-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.siteFooter .footerLogo {
+    margin: 2em 1.2em 4em 1.2em;
+}
+
+.siteFooter .socialLinks {
+    display: flex;
+    flex-direction: row;
+}
+
+.siteFooter .siteLinks {
+    margin-block: 1em;
+}
+
+.siteFooter .siteLinks li {
+    margin: 1em;
+}
+
+.siteFooter li {
+    list-style: none;
+    color: hsl(220, 16%, 96%);
+    text-align: center;
+}
+
+.siteFooter .socialLinks li {
+    width: 20px;
+    height: 20px;
+    margin: 0 .5em;
+    cursor: pointer;
+}
+
+.siteFooter .socialLinks li svg path:hover {
+    fill: hsl(136, 65%, 51%);
+}
+
+.siteFooter button {
+    width: max-content;
+    margin: 0 calc(50% - 6em);
+    margin-bottom: 2.5em;
+    padding: .9em 2.5em;
+    border-radius: 100vw;
+    background:
+        linear-gradient(to right, #61cb86,#63b4bf);
+    border: 1px solid #0a453f;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.siteFooter > div {
+    margin: .5em;
+}
+
+.siteFooter > div:last-child {
+    margin-top: 3em;
+    color: #ffffff;
+}
+
+@media only screen and (min-width: 769px) {
+
+    .siteFooter > div:first-child {
+        width: 80vw;
+        margin: 0 auto;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .siteFooter .siteLinks li { 
+        width: 10em;
+        margin: .5em;
+        text-align: left;
+    }
+
+    .siteFooter .siteLinks {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 8em;
+        margin-top: 1em;
+        margin-inline: 4em;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .siteFooter .attribution {
+        align-self: flex-end;
+        text-align: right;
+    }
+}
+
+
+@media only screen and (min-width: 1130px) {
+    .siteFooter .siteLinks {
+        width: 24em;
+        margin-top: 2.5em;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 8em;
+    }
+}
