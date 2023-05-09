@@ -3,7 +3,8 @@
     flex-direction: column;
     text-align: center;
     background-color: #fafafa;
-    padding: 3em 1.5em;
+    padding-block: 2em 3.5em;
+    margin-inline: 1.5em;
 }
 
 .latestArticle {
@@ -11,11 +12,8 @@
 }
 
 #latestArticles h2 {
-    font-size: 36px;
-    font-weight: 500;
-    line-height: 1em;
-    margin-top: 1em;
-    margin-bottom: .5em;
+    margin-top: 1.6em;
+    margin-bottom: .9em;
 }
 
 #latestArticles ul {
@@ -25,10 +23,6 @@
 
 #latestArticles li {
     list-style: none;
-}
-
-#latestArticles hgroup p {
-    font-size: 11px;
 }
 
 #latestArticles img {
@@ -47,19 +41,26 @@
     object-fit: cover;
 }
 
+#latestArticles hgroup h3 {
+    font-size: 16px;
+}
+
+#latestArticles hgroup p {
+    font-size: 10px;
+}
+
 .latestArticle > div {
     padding-inline: 1.2em;
     text-align: left;
-    padding-block: 1.5em 2.5em;
+    padding-block: 1.5em 2em;
     background-color: #ffffff;
-    margin-block: 0 2em;
+    margin-block: 0 1.5em;
 }
 
 .latestArticle div > p {
     margin-block: .5em;
     font-size: 12px;
 }
-
 
 @media only screen and (min-width: 480px) {
     #latestArticles > div {

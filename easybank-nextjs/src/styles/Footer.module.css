@@ -12,12 +12,13 @@
 }
 
 .siteFooter .footerLogo {
-    margin: 2em 1.2em 4em 1.2em;
+    margin: 2em 1.2em 1.5em 1.2em;
 }
 
 .siteFooter .socialLinks {
     display: flex;
     flex-direction: row;
+    scale: 1.2;
 }
 
 .siteFooter .siteLinks {
@@ -25,13 +26,14 @@
 }
 
 .siteFooter .siteLinks li {
-    margin: 1em;
+    margin: .95em;
 }
 
 .siteFooter li {
     list-style: none;
     color: hsl(220, 16%, 96%);
     text-align: center;
+    font-size: 15px;
 }
 
 .siteFooter .socialLinks li {
@@ -48,14 +50,13 @@
 .siteFooter button {
     width: max-content;
     margin: 0 calc(50% - 6em);
-    margin-bottom: 2.5em;
-    padding: .9em 2.5em;
+    margin-bottom: 1.7em;
+    padding: 1.07em 2.9em;
     border-radius: 100vw;
     background:
         linear-gradient(to right, #61cb86,#63b4bf);
     border: 1px solid #0a453f;
-    color: #ffffff;
-    font-weight: 600;
+    color: #e4fffa;
     cursor: pointer;
 }
 

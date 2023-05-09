@@ -5,7 +5,7 @@
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
-  --foreground-rgb: 167, 166, 171;
+  --foreground-hsl: 220, 16%, 96%;
   --background-start-rgb: 155, 156, 161;
   --background-end-rgb: 250, 250, 250;
 
@@ -42,7 +42,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
+    --foreground-rgb: 167, 166, 171;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 250, 250, 250;
 
@@ -87,7 +87,7 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: hsl(233, 8%, 62%);
   background: rgb(var(--background-end-rgb));
   font-family: Calibri, sans-serif;
 }
@@ -106,8 +106,8 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size: 34px;
-  font-weight: 500;
+  font-size: 40px;
+  font-weight: 400;
 }
 
 h2 {
@@ -117,7 +117,7 @@ h2 {
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 1.1em !important;
   margin-top: .6em;
